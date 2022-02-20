@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D2 CHILL</title>
+    <link rel="stylesheet" href="second.css">
+    <link rel="icon" type="image/x-icon" href="IMG/d2.ico">
+</head>
+<body>
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="register-block">
+            <p class="login-button" id="reg-hide">Sign up</p>
+           <div class="input-block" id="input-block-register">
+                   <input type="text" name="name_lastname" id="name_lastname_reg" placeholder="Username" required />
+                   <input type="password" class="register_inp" name="password_reg" id="password_reg" placeholder="Password" required>
+                   <input type="password" class="register_inp" name="password_duplicate_reg" id="password_dup_reg" placeholder="Confirm password">
+                   <input type="hidden" id="input-from-bot-reg">
+                   <button id="register_but">Sign up</button>
+           </div>
+           <p class="hidden-error-block"></p>
+       </div>
+        </form>
+      </div>
+    <div class="topnav">
+        <a  href="index.html">Home</a>
+        <a class="active" href="second.html">РУНДУК</a>
+        <a href="contact.html">Contact</a>
+        <button id="dark">Dark-Mode</button>
+        <div class="login-container">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        </div>
+    </div>
+
+    <div class="rondook">
+        <button id="bounty">
+            <img src="IMG/bounty.png" alt="bounty">
+        </button>
+        <p id="rundukwiki">Различные ящички на морских и речных судах называются рундука́ми и предназначаются для хранения флагов, лотов, лагов, личных вещей и тому подобного. Так же в пассажирских поездах называются короба под нижней полкой для хранения багажа. Переносной матросский ящик для личных вещей — рундучо́к. На современном флотском жаргоне рундуком также называют вещмешок.</p>
+    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="second.js"></script>
+</body>
+</html>
